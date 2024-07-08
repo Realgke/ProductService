@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ProductService
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/Ecommerce?createDatabaseIfNotExist=true
+    username: root
+    password: Internet
+    driverClassName: com.mysql.jdbc.Driver
+  jpa:
+    database-platform:
+    hibernate:
+      ddl-auto: update
+
+
